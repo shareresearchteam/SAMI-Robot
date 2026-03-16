@@ -1,0 +1,13 @@
+{
+    "Name": "nopresence",
+    "Keyframes": [
+          {
+            "HasJoints": true,
+            "Expression": "Dead",
+            "WaitTime": 500,
+            "JointMoveTime": 10,
+            "JointAngles": [
+            ]
+          }
+        ]
+    }
