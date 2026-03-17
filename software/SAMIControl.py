@@ -8,7 +8,7 @@ from audio_manager import AudioManager
 
 class SAMIControl:
     def __init__(self, 
-                 arduino_port='/dev/ttyUSB0', 
+                 arduino_port='/dev/tty.usbserial-10', 
                  baud_rate=115200,
                  joint_config_file='Joint_config.json',
                  behavior_folder='behaviors',
@@ -96,7 +96,7 @@ class SAMIControl:
     def send_emote(self, emote_id):
         if not self._behavior_done:
             self.stop_behavior()
-        self.send_emote(emote_id)
+        self._send_emote(emote_id)
 
     # Private version that just sends without checking anything
     def _send_emote(self, emote_id):
@@ -148,21 +148,37 @@ class SAMIControl:
 
         if self.q_keyframes.empty():
             self._behavior_done = True
-        if not self._behavior_done:
-            threading.Timer(self.next_t - time.time(), self._process_keyframe).start()
+
+            if hasattr(self, "_behavior_finished_callback") and self._behavior_finished_callback:
+                from PyQt6.QtCore import QTimer
+                # 🔐 Safely return to GUI thread
+                QTimer.singleShot(0, self._behavior_finished_callback)
+
+        else:
+            threading.Timer(
+                self.next_t - time.time(),
+                self._process_keyframe
+            ).start()
+        # if not self._behavior_done:
+        #     threading.Timer(self.next_t - time.time(), self._process_keyframe).start()
 
 
-    def start_behavior(self,filename):
+    def start_behavior(self,filename, on_finished=None):
         if not self._behavior_done:
             self.stop_behavior()
             time.sleep(1)
+
         with open(os.path.join(self._behavior_folder, filename), 'r') as file:
             data = json.load(file)
+
         self.current_behavior = data["Name"]
         self.q_keyframes = queue.SimpleQueue()
+
         for frame in data["Keyframes"]:
             self.q_keyframes.put_nowait(frame)
+
         self._behavior_done = False
+        self._behavior_finished_callback = on_finished
         self._process_keyframe()
         
     def stop_behavior(self):
