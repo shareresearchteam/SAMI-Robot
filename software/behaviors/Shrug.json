@@ -1,0 +1,156 @@
+{
+    "Name": "Shrug",
+    "Keyframes": [
+        {
+            "HasEmote": "True",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "JointMoveTime": 10,
+            "WaitTime": 50,
+            "JointAngles": [
+                {
+                    "Joint": "LeftChest",
+                    "Angle": 115
+                },
+                {
+                    "Joint": "LeftShoulder",
+                    "Angle": 180
+                },
+                {
+                    "Joint": "LeftBicep",
+                    "Angle": 115
+                },
+                {
+                    "Joint": "LeftElbow",
+                    "Angle": 105
+                },
+                {
+                    "Joint": "LeftHip",
+                    "Angle": 96
+                },
+                {
+                    "Joint": "LeftKnee",
+                    "Angle": 80
+                },
+                {
+                    "Joint": "Angle",
+                    "Angle": 90
+                },
+                {
+                    "Joint": "RightChest",
+                    "Angle": 135
+                },
+                {
+                    "Joint": "RightShoulder",
+                    "Angle": 80
+                },
+                {
+                    "Joint": "RightBicep",
+                    "Angle": 115
+                },
+                {
+                    "Joint": "RightElbow",
+                    "Angle": 90
+                },
+                {
+                    "Joint": "RightGripper",
+                    "Angle": 15
+                },
+                {
+                    "Joint": "RightHip",
+                    "Angle": 84
+                },
+                {
+                    "Joint": "RightKnee",
+                    "Angle": 90
+                },
+                {
+                    "Joint": "RightAnkle",
+                    "Angle": 80
+                },
+                {
+                    "Joint": "HeadNod",
+                    "Angle": 125
+                },
+                {
+                    "Joint": "HeadTurn",
+                    "Angle": 120
+                },
+                {
+                    "Joint": "HeadTilt",
+                    "Angle": 125
+                },
+                {
+                    "Joint": "TorsoBow",
+                    "Angle": 125
+                },
+                {
+                    "Joint": "TorsoTilt",
+                    "Angle": 115
+                }
+            ]},
+            {
+            "HasEmote": "True",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Confused",
+            "WaitTime": 1000,
+            "JointMoveTime": 10,
+            "JointAngles": [
+              {
+                "Joint": "LeftElbow",
+                "Angle": 45
+              },
+              {
+                "Joint":"RightElbow",
+                "Angle":135
+              },
+              {
+                "Joint": "LeftBicep",
+                "Angle": 30
+              },
+              {
+                "Joint":"RightBicep",
+                "Angle":180
+              }
+            ]
+        },
+        {
+            "HasEmote": "True",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Confused",
+            "WaitTime": 1000,
+            "JointMoveTime": 10,
+            "JointAngles": [
+              {
+                "Joint": "LeftShoulder",
+                "Angle": 140
+              },
+              {
+                "Joint":"RightShoulder",
+                "Angle":120
+              }
+            ]
+        },
+        {
+            "HasEmote": "True",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Confused",
+            "WaitTime": 1000,
+            "JointMoveTime": 10,
+            "JointAngles": [
+              {
+                "Joint": "LeftShoulder",
+                "Angle": 180
+              },
+              {
+                "Joint":"RightShoulder",
+                "Angle":80
+              }
+            ]
+        }
+    ]
+}
