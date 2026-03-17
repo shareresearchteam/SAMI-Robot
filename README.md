@@ -48,3 +48,7 @@ Audio files + caption text
 C# testing/development UI
 3D model files
 URDF model
+
+## Software & Running SAMI
+
+To run SAMI, look at the [software README](software/README.md) for further instructions
