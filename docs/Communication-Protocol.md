@@ -28,17 +28,21 @@ These existing message types, corresponding message topics, and remaining conten
 Joint messages are defined with the message topic byte 'J', followed by the time it should take for the joints to reach the requested position (in seconds) followed then by a list of paired bytes that denote the joint servo id, and the angle
 
 So, a message telling two servos, with ids 1 and 5 to go to 90 degrees in 2 seconds would be 8 bytes and look like:
-   <J2190590>
+```
+<J2190590>
+```
 
 The maximum length of a joint message, if you set all motors, would be:
+```
    start byte + message type + time + (jointID * number of motors) + (jointID * number of motors) + stop byte
+```
 
 For the standard system, which has 21 motors, this would be 46 bytes maximum.
 
 #### Emote Message
 Emote messages are defined with the message topic byte 'E', followed by the id for the emote they want to display, as ordered by the NeoEyes library.
 
-So neutral expression would be 4 bytes and look like: <E0>
+So neutral expression would be 4 bytes and look like: ```<E0>```
 
 #### Power Message
 Power messages tell us whether to turn the relays on or off, and which relays. We can also send back power messages to the PC if the Arduino automatically cuts a relay because of a motor going over temperature.
@@ -50,13 +54,19 @@ Power messages are defined with the message topic byte 'P', followed by a 1 (on)
  - E - Everything, aka all of the relays.
 
 The power message is 5, 6, or 7 bytes. A message saying to turn on power to the neck and torso would look like:
-   <P1T>
+```
+<P1T>
+```
 
 If you wanted to turn off all relays, you could do so either by sending 'E': 
-   <P0E>
+```
+<P0E>
+```
 
 Or by sending 'TAL' (order invariant, so TLA, ATL, ALT, LTA, or LAT are all acceptable options).
-   <P0TAL>
+```
+<P0TAL>
+```
 
 #### Button Message
 Button messages send a single integer value corresponding the 0, 1, or 2, which in turn are the first, second, or third button on the sensor box being pressed, beginning from the left hand side when facing towards the front of the box.

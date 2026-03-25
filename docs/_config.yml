@@ -15,7 +15,7 @@ sidebar:
     children:
       - bom
       - custom-pcbs
-      - custom-cables
+      - bom/custom-cables
       - custom-3d
   - label: Building the Robot
     children:

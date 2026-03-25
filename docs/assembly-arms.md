@@ -43,8 +43,8 @@ As recommended with every step within the assembly, it is best to pre-thread the
 
 <!--Beginning with the top motor placement on the bicep, attach 2 JST cables onto the back and right side of the Right Bicep motor (switching the right side to left for the Left Bicep motor). After completing this step, add the square nuts to their corresponding spaces on the inside of the Biceps. If you look at the screw hole from a top view, you shouldn’t be able to see the M3 square nuts. If you can, this means that the screw holes from the Bicep pieces and the nuts are not aligned correctly. After aligning the nuts correctly, place the motors into the top motor space which should give you a prescribed alignment. Screw the motors in place using the M3 x 25 mm screws. The placement should mimic the figure below:-->
 1. Attach 2 JST cables onto the back and right side of motor 10, and 2 cables onto the back and left side of motor 6.
-2. Insert 4 square nuts into the slots located on the inside of the Biceps. Align them so you can't see them from the top.
-3. Insert motors 10 and 6 into the Bicep pieces, secure them with 4 M3 x 25 mm screws.
+2. Insert 4 **square nuts** into the slots located on the inside of the Biceps. Align them so you can't see them from the top.
+3. Insert motors 10 and 6 into the Bicep pieces, secure them with the 4 **M3 x 25 mm** screws.
 
 Bicep references with JST cables:
 
@@ -54,8 +54,8 @@ Bicep references with JST cables:
 <!--Next, add 2 rubber spacers to the screw holes opposite to where the servo attaches on the lower Bicep motors. Then, attach the lower Bicep motors to the lower motor placement available using the tapered M3 x 18 mm screws with their servo horns already included (using the black M3 screws). The motors should be aligned where the screw holes with the rubber spacers match up with the screw holes on the 3D printed piece. The end result should allow for the servo horn of the lower Bicep motors to be attached to the Forearms. Lastly, connect the JST cables located on the right or left side of the upper Bicep motors to the back available connection of the lower Bicep motors. The figures below will include highlighted JST cable paths.
 The final products should look like the figure below:-->
 
-4. Add 4 rubber spacers onto the top screw notches of motors 7 and 11.
-5. Attach the motors onto the lower placement of the Bicep pieces using 4 M3 x 18 mm tapered screws. Secure them with 4 M3 hex nuts.
+4. Add 4 **rubber spacers** onto the top screw notches of motors 7 and 11.
+5. Attach the motors onto the lower placement of the Bicep pieces using 4 **M3 x 18 mm tapered** screws. Secure them with 4 **M3 hex nuts**.
 6. Connect the side JST cables of the upper motors to the back connection of the lower motors.
 
 Final products (Right motor and Left motor):
@@ -80,7 +80,7 @@ As recommended with every step, it is best to pre-thread all screw holes. This i
 
 <!--Before placing the Shoulder motors in the 3D printed piece, attach servo horns on the bottom of the 3D piece using the silver M3 screws. This will be the servo horns meant to connect to the upper motors of the Bicep assembly that you just completed. Make sure to align the horns correctly according to the upper Bicep motors. To make this step easier, feel free to attach the servo horns onto the upper Bicep motors, **don’t screw them down yet**. Then, screw the Shoulder piece onto the horn. The outcome should look like the figure below:-->
 
-1. Attach servo horns using 8 silver M3 screws onto the bottoms of the Shoulder pieces. Point the servo horn dimple toward the front of the piece.
+1. Attach servo horns using 8 **silver servo horn M3 screws** onto the bottoms of the Shoulder pieces. Point the servo horn dimple toward the front of the piece.
 
 Outcome of servo horn attachment:
 
@@ -90,7 +90,7 @@ Outcome of servo horn attachment:
 <!--Next, add rubber spacers to the screw holes closest to the servo horn attachment on the Shoulder motors. Put the Shoulder motors into the 3D printed piece with the label facing outward and the servo horn attachment orientated on the top. You can then screw the motors in place using the M3 x 14 mm hex screws and adding the M3 square nuts into their corresponding slots. It might take a bit of fussing to get the M3 square nuts aligned correctly with the screws. You can tilt the piece to help make this a bit easier.--> 
 
 2. Add 4 rubber spacers onto motors 5 and 9, only on the top screw notches.
-3. Insert motors 5 and 9 into the shoulders, screw them in place using 4 M3 x 14 mm hex screws and 4 M3 square nuts.
+3. Insert motors 5 and 9 into the shoulders, screw them in place using 4 **M3 x 16 mm** hex screws and 4 **M3 square nuts**.
 
 <!--After screwing the motor in place, you can screw on the servo horns and attach the JST cables (connected to the back of the upper Bicep motors) to the outer sides of the Shoulder motors. Right side for the Right Shoulder, and left side for the Left Shoulder. Additionally, attach JST cables to the inside of the Shoulder motors, which will later connect to the upper Chest motors. The figures below will include highlighted JST cable paths.-->
 
@@ -105,11 +105,11 @@ Final product:
 ## Forearms
 The Forearms will require:
  - a M3 hex screwdriver
- - 8x silver M3 screws
+ - 8x silver servo horn M3 screws
 
 Pre-thread all screw holes before assembly.
 
-1. Attach Forearms to respective Biceps using 4 silver M3 screws each.
+1. Attach Forearms to respective Biceps using 4 **silver servo horn M3 screws** each.
 
 Final assembly (ignore color differences, pieces were printed incorrectly):
 

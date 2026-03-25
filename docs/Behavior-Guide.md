@@ -31,25 +31,25 @@ Each keyframe can (but is not required to) include an expression for the eyes, a
 ### Emotes
 The different pre-built eye expressions are called Emotes. Within each keyframe, an emote can be assigned by providing the keyword "Expression" with a string value matching one of the pre-built emotes. The available emotes are listed below, which maps to the [emote configuration information](./Software.md) and the inbuilt behaviors in the [NeoEyes Arduino library](../Arduino/NeoEyes/).
 
-| Appearance                        | Emote       | ID |
-| --------------------------------- | ----------- | -- |
-| <img src="res/emotes/.png" width="30%"/> | Off         | 0  |
-| <img src="res/emotes/.png" width="30%"/> | Neutral     | 1  |
-| <img src="res/emotes/.png" width="30%"/> | Happy       | 2  |
-| <img src="res/emotes/.png" width="30%"/> | Sad         | 3  |
-| <img src="res/emotes/.png" width="30%"/> | Angry       | 4  |
-| <img src="res/emotes/.png" width="30%"/> | Confused    | 5  |
-| <img src="res/emotes/.png" width="30%"/> | Closed      | 6  |
-| <img src="res/emotes/.png" width="30%"/> | Sleepy      | 7  |
-| <img src="res/emotes/.png" width="30%"/> | Dead        | 8  |
-| <img src="res/emotes/.png" width="30%"/> | slightRight | 9  |
-| <img src="res/emotes/.png" width="30%"/> | Right       | 10 |
-| <img src="res/emotes/.png" width="30%"/> | slightLeft  | 11 |
-| <img src="res/emotes/.png" width="30%"/> | Left        | 12 |
-| <img src="res/emotes/.png" width="30%"/> | slightUp    | 13 |
-| <img src="res/emotes/.png" width="30%"/> | Up          | 14 |
-| <img src="res/emotes/.png" width="30%"/> | slightDown  | 15 |
-| <img src="res/emotes/.png" width="30%"/> | Down        | 16 |
+| Appearance                                     | Emote       | ID |
+| ---------------------------------------------- | ----------- | -- |
+| <img src="res/Off.jpeg" width="30%"/>          | Off         | 0  |
+| <img src="res/Neutral.jpeg" width="30%"/>      | Neutral     | 1  |
+| <img src="res/Happy.jpeg" width="30%"/>        | Happy       | 2  |
+| <img src="res/Sad.jpeg" width="30%"/>          | Sad         | 3  |
+| <img src="res/Angry.jpeg" width="30%"/>        | Angry       | 4  |
+| <img src="res/Confused.jpeg" width="30%"/>     | Confused    | 5  |
+| <img src="res/Closed.jpeg" width="30%"/>       | Closed      | 6  |
+| <img src="res/Sleepy.jpeg" width="30%"/>       | Sleepy      | 7  |
+| <img src="res/Dead.jpeg" width="30%"/>         | Dead        | 8  |
+| <img src="res/slightRight.jpeg" width="30%"/>  | slightRight | 9  |
+| <img src="res/Right.jpeg" width="30%"/>        | Right       | 10 |
+| <img src="res/slightLeft.jpeg" width="30%"/>   | slightLeft  | 11 |
+| <img src="res/Left.jpeg" width="30%"/>         | Left        | 12 |
+| <img src="res/slightUp.jpeg" width="30%"/>     | slightUp    | 13 |
+| <img src="res/Up.jpeg" width="30%"/>           | Up          | 14 |
+| <img src="res/slightDown.jpeg" width="30%"/>   | slightDown  | 15 |
+| <img src="res/Down.jpeg" width="30%"/>         | Down        | 16 |
 
 
 

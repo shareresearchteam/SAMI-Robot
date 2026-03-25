@@ -9,7 +9,8 @@ next_page: software-setup
 # Assembling all the Pieces
 
 ## Chair Modification and Assembly
-The Ikea chair needs to be modified with screw and bolt holes to attach the robot, control PCB, two power supplies, and power switch.
+The Ikea chair requires some modification for the robot. This will require the **drilling holes** and **cutting out** portions of the wooden chair. These modifications will allow us to mount the robot, control PCB, 12V power supply, 5V power supply, and the power switch.
+
 
 Begin by first assembling the Ikea chair following their instructions.
 
