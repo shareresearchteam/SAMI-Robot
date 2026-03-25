@@ -8,6 +8,7 @@ plugins:
   - jemoji
 
 remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+search_enabled: true
 
 sidebar:
   - getting-started
@@ -15,7 +16,7 @@ sidebar:
     children:
       - bom
       - custom-pcbs
-      - bom/custom-cables
+      - custom-cables
       - custom-3d
   - label: Building the Robot
     children:
