@@ -48,8 +48,8 @@ As recommended with every step within the assembly, it is best to pre-thread the
 
 Bicep references with JST cables:
 
-<img src="res/Biceps_Back.jpeg"  width="50%"/>
-<img src="res/Biceps_Top.jpeg"  width="50%"/>
+<img src="../res/Biceps_Back.jpeg"  width="50%"/>
+<img src="../res/Biceps_Top.jpeg"  width="50%"/>
 
 <!--Next, add 2 rubber spacers to the screw holes opposite to where the servo attaches on the lower Bicep motors. Then, attach the lower Bicep motors to the lower motor placement available using the tapered M3 x 18 mm screws with their servo horns already included (using the black M3 screws). The motors should be aligned where the screw holes with the rubber spacers match up with the screw holes on the 3D printed piece. The end result should allow for the servo horn of the lower Bicep motors to be attached to the Forearms. Lastly, connect the JST cables located on the right or left side of the upper Bicep motors to the back available connection of the lower Bicep motors. The figures below will include highlighted JST cable paths.
 The final products should look like the figure below:-->
@@ -60,8 +60,8 @@ The final products should look like the figure below:-->
 
 Final products (Right motor and Left motor):
 
-<img src="res/CompleteBiceps_Front.jpeg"  width="50%"/>
-<img src="res/CompleteBiceps_Side.jpeg"  width="50%"/>
+<img src="../res/CompleteBiceps_Front.jpeg"  width="50%"/>
+<img src="../res/CompleteBiceps_Side.jpeg"  width="50%"/>
 
 ## Shoulders
 The Shoulders will require:
@@ -84,8 +84,8 @@ As recommended with every step, it is best to pre-thread all screw holes. This i
 
 Outcome of servo horn attachment:
 
-   <img src="res/Shoulder_Screw_Top.jpeg"  width="50%"/>
-   <img src="res/Bicep_Shoulder_Front.jpeg"  width="50%"/>
+   <img src="../res/Shoulder_Screw_Top.jpeg"  width="50%"/>
+   <img src="../res/Bicep_Shoulder_Front.jpeg"  width="50%"/>
 
 <!--Next, add rubber spacers to the screw holes closest to the servo horn attachment on the Shoulder motors. Put the Shoulder motors into the 3D printed piece with the label facing outward and the servo horn attachment orientated on the top. You can then screw the motors in place using the M3 x 14 mm hex screws and adding the M3 square nuts into their corresponding slots. It might take a bit of fussing to get the M3 square nuts aligned correctly with the screws. You can tilt the piece to help make this a bit easier.--> 
 
@@ -99,8 +99,8 @@ Outcome of servo horn attachment:
 
 Final product:
 
-   <img src="res/LRShoulder_Bicep_Front.jpeg"  width="50%"/>
-   <img src="res/LRShoulder_Bicep_Back.jpeg"  width="50%"/>
+   <img src="../res/LRShoulder_Bicep_Front.jpeg"  width="50%"/>
+   <img src="../res/LRShoulder_Bicep_Back.jpeg"  width="50%"/>
 
 ## Forearms
 The Forearms will require:
@@ -113,7 +113,7 @@ Pre-thread all screw holes before assembly.
 
 Final assembly (ignore color differences, pieces were printed incorrectly):
 
-   <img src="res/LRArmAssembly_Side.jpeg"  width="50%"/>
+   <img src="../res/LRArmAssembly_Side.jpeg"  width="50%"/>
 
 ## Hands Construction & Assembly
 Before beginning assembly, please be sure to double check that the hinges match the size-dependent and axial orientation on the fingers, with the fingers aligned to their corresponding palm (*Figures 1-3*). This assembly will require:
@@ -145,50 +145,50 @@ Before beginning assembly, please be sure to double check that the hinges match 
 7. Restring fishing line back through the top finger component. Leave enough room to tie off later.
 8. Ensure that the length is adequate enough to later attach to the forearm. If so, tie off the top of the finger using pliers to get a tight knot (may need to make more than one knot). Use Figure 4 as a reference.
 
-<img src="res/Finger_Hand_Reference_Sheet.jpg"  width="50%"/>
+<img src="../res/Finger_Hand_Reference_Sheet.jpg"  width="50%"/>
 
 *Figure 1*: Composition and BOM of Flexy-Hand 2 ([Flexy-Hand 2](https://www.thingiverse.com/thing:380665))
 
 
-<img src="res/Finger_Plate_Layout_display_large.jpg"  width="50%"/>
+<img src="../res/Finger_Plate_Layout_display_large.jpg"  width="50%"/>
 
 *Figure 2*: Finger plate with labeled orientation ([Flexy-Hand 2](https://www.thingiverse.com/thing:380665))
 
 
-<img src="res/Base_Hinge_Orientation_display_large.jpg" width="50%"/>
+<img src="../res/Base_Hinge_Orientation_display_large.jpg" width="50%"/>
 
 *Figure 3*: Hinge orientation for all fingers ([Flexy-Hand 2](https://www.thingiverse.com/thing:380665))
 
 
-<img src="res/Tendon_Tieoff_at_Base_of_Fingertip_display_large.jpg"  width="50%"/>
+<img src="../res/Tendon_Tieoff_at_Base_of_Fingertip_display_large.jpg"  width="50%"/>
 
 *Figure 4*: Tendon knot placement for all fingers ([Flexy-Hand 2](https://www.thingiverse.com/thing:380665))
 
-<img src="res/Fishermans-knot-all-steps.jpg"  width="50%"/>
+<img src="../res/Fishermans-knot-all-steps.jpg"  width="50%"/>
 
 *Figure 5*: Fisherman's Knot instructional image
 
 ### Continued...
 9. Set up linear actuators to board and move them to max length before assembly. Follow Arduino code provided in [LinearActuatorSet](../Arduino/LinearActuatorSet/).
 
-   <img src="res/ArduinoCircuit_Front.jpeg"  width="50%"/>
+   <img src="../res/ArduinoCircuit_Front.jpeg"  width="50%"/>
 
 10. Attach eyebolts to middle screw hole of U-shaped metal piece using the smallest M3 screws from the linear actuator package.
 
-   <img src="res/Eyebolt_Top.jpeg"  width="50%"/>
+   <img src="../res/Eyebolt_Top.jpeg"  width="50%"/>
 
 11. Attach linear actuators to Forearm piece using M3 x 12 mm screws and square nuts (see Final product reference).
 12. Tie all 5 fishing lines to eyebolt using a 'Fisherman's Knot'. Use Figure 5 as a reference.
 
-   <img src="res/Hand_Eyebolt_Top.jpeg"  width="50%"/>
+   <img src="../res/Hand_Eyebolt_Top.jpeg"  width="50%"/>
 
 12. Attach hands to the forearms using the 2.5 mm self-tapping screws.
 13. Attach other 2 screw holes of U-shaped metal piece to linear actuator using the medium length M3 screws and lock nuts. *Note: This image is only meant to show how linear actuator and hand should be attached. Only attach the two once the linear actuator is screwed into the forearm.*
 
-   <img src="res/EyeboltKnot_Side.jpeg"  width="50%"/>
+   <img src="../res/EyeboltKnot_Side.jpeg"  width="50%"/>
 
 Final product (Right Arm):
 
-   <img src="res/CompleteForearm_Top.jpeg"  width="50%"/>
-   <img src="res/CompleteForearm_Bottom.jpeg"  width="50%"/>
+   <img src="../res/CompleteForearm_Top.jpeg"  width="50%"/>
+   <img src="../res/CompleteForearm_Bottom.jpeg"  width="50%"/>
 

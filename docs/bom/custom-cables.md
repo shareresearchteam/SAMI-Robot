@@ -75,7 +75,7 @@ You will need:
 
 Assemble the cable so that wires connect into the connectors as shown in the image below.
 
-<img src="./res/long_eyes_conn.jpg" width="50%"/>
+<img src="../res/long_eyes_conn.jpg" width="50%"/>
 
 
 ## Eye Panel Short Cable
@@ -87,7 +87,7 @@ You will need:
 
 Assemble the connectors to the cable such that the connectors match each other (*not* mirrored!). See the photo below.
 
-<img src="./res/short_eyes_conn.jpg" width="50%"/>
+<img src="../res/short_eyes_conn.jpg" width="50%"/>
 
 
 ## Gripper Cable
@@ -112,5 +112,5 @@ You will need:
 
 Split the JST cable that comes with the motor down the middle. Then splice in the 12" length of cable, such that the connector ends match each other (*not* mirrored!) See the photo below.
 
-<img src="./res/leg_extensions.jpg" width="50%"/>
+<img src="../res/leg_extensions.jpg" width="50%"/>
 

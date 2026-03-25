@@ -10,9 +10,7 @@ next_page: software-architecture
 The simulator is implemented within a ROS 2 environment and uses RViz as the physics-based simulation platform for validating SAMI’s JSON-defined behavior files. Its primary purpose is to provide a controlled and safe testing environment where behaviors can be evaluated before deployment on the physical robot, reducing the risk of hardware damage. The simulator parses the JSON behavior descriptions and executes the corresponding actions through the ROS 2 simulation stack in RViz. In addition, the system includes a graphical user interface (GUI) that enables users to interact with and manipulate SAMI within the simulated environment. While the GUI supports user interaction and debugging, the core function of the simulator is the verification and testing of JSON-specified robot behaviors. 
 
 # SAMI ROS 2 Simulation Workspace (`sami_ws`)
-The sami_ws workspace provides a ROS 2-based environment for simulating the SAMI robot in RViz and executing joint animations from pre-recorded JSON behavior files. The following section outlines the step-by-step setup process for the environment. These setup instructions are also available in the sami_ws GitHub repository here:
-
-https://github.com/shareresearchteam/sami_ws
+The sami_ws workspace provides a ROS 2-based environment for simulating the SAMI robot in RViz and executing joint animations from pre-recorded JSON behavior files. The following section outlines the step-by-step setup process for the environment. These setup instructions are also available in the sami_ws GitHub repository [here](https://github.com/shareresearchteam/sami_ws).
 
 ---
 
@@ -21,7 +19,7 @@ https://github.com/shareresearchteam/sami_ws
 If you're using a clean VM with ROS 2 Jazzy, start by installing dependencies and cloning the workspace:
 
 ```bash
-git clone https://github.com/jlruballos/sami_ws.git
+git clone https://github.com/shareresearchteam/sami_ws.git
 sudo apt install ros-jazzy-joint-state-publisher-gui
 sudo apt install ros-jazzy-xacro
 ```

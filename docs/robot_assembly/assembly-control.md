@@ -20,17 +20,17 @@ Before getting into initializing the robot setup, we'll begin by connecting powe
 4. Connect the black fork of the 5V power cable to the V- label on the 5V power supply.
 5. Connect red, yellow, and black cables to back of power switch.
 
-   <img src="res/switch_wiring.JPG" width="50%"/>
+   <img src="../res/switch_wiring.JPG" width="50%"/>
 
 6. Connect other ends to locations on both th 5V and 12V power supplies:
    - Red to L
    - Yellow to N (neutral)
    - Black to GND
 
-   <img src="res/Switch_Key.jpeg"  width="50%"/>
+   <img src="../res/Switch_Key.jpeg"  width="50%"/>
 
 7. Plug power cord to switch, then to a nearby power outlet.
 
 Reference image:
 
-   <img src="res/PowerSupplys_Front.jpeg"  width="50%"/>
+   <img src="../res/PowerSupplys_Front.jpeg"  width="50%"/>

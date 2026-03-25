@@ -11,7 +11,7 @@ BLEH
 
 The layout of the parts for the robot, with names that are used within these instructions.
 
-<img src="res/sami_labeled.jpg"  width="50%"/>
+<img src="../res/sami_labeled.jpg"  width="50%"/>
 
 ## Notes On Assembly Process
 Some components are sensitive, or could be easily damaged during assembly. To help mitigate this, these notes are provided as important notes to keep in mind during the process.
@@ -24,7 +24,7 @@ Additionally, when screwing to the metal servo horns, it is very easy to misalig
 ### Servo Horn Alignment
 Once a motor has been set to the default position, you can attach the metal horn with the small indent facing towards the motor body (see below image) as a useful visual reference to assist in verifying that the servo does not get misaligned or shifted during the assembly process.
 
-<img src="res/Servo_Horn_Orientation.jpg" width="50%"/>
+<img src="../res/Servo_Horn_Orientation.jpg" width="50%"/>
 
 
 ### Servo JST Cables

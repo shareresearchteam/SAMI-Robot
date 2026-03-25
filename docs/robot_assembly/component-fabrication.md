@@ -16,25 +16,25 @@ next_page: assembly-control
 Print orientations are shown below for each part, along with the part names that are used throughout this documentation.
 
 ### Headshell
-<img src="res/Headshell.png"  width="50%"/>
+<img src="../res/Headshell.png"  width="50%"/>
 
 ### Chest and Headshell Panel
-<img src="res/Chest_HeadshellSidePanel.png"  width="50%"/>
+<img src="../res/Chest_HeadshellSidePanel.png"  width="50%"/>
 
 ### Head/Neck Connectors and Spine
-<img src="res/HeadnNeck_Connector_Spine.png"  width="50%"/>
+<img src="../res/HeadnNeck_Connector_Spine.png"  width="50%"/>
 
 ### Shoulders and Upper Arms
-<img src="res/Shoulders_Biceps.png"  width="50%"/>
+<img src="../res/Shoulders_Biceps.png"  width="50%"/>
 
 ### Hands and Lower Arms
-<img src="res/Hands_Lower Arms.png"  width="50%"/>
+<img src="../res/Hands_Lower Arms.png"  width="50%"/>
 
 ### Finger Hinges
-<img src="res/FFX_Finger_Hinge_Plate.png"  width="50%"/>
+<img src="../res/FFX_Finger_Hinge_Plate.png"  width="50%"/>
 
 ### Hips and Upper Legs
-<img src="res/Hip_UpperLegs.png"  width="50%"/>
+<img src="../res/Hip_UpperLegs.png"  width="50%"/>
 
 ### Lower Legs and Feet
-   <img src="res/LowerLegs_Feet.png"  width="50%"/>
+   <img src="../res/LowerLegs_Feet.png"  width="50%"/>

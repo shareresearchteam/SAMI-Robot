@@ -1,9 +1,9 @@
 ---
 layout: default
 id: software-architecture
-title: 
+title: Robot Software Architecture 
 sidebar_label: Architecture
-previous_page: software-setup
+previous_page: sami-sim
 next_page: behavior-guide
 ---
 # Robot Software Architecture 

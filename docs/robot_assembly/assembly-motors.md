@@ -15,7 +15,7 @@ You will need to communicate with the motors as part of the assembly process. Th
 
 In either case, you will be initializing each motor by connecting and communicating with it individually (*not* chaining the motors). The below initialization instructions assume you are initializing the motors using the robot motor control PCB.
 
-Before assembling the robot, it is necessary to assign unique motor IDs for each joint motor. You can set these IDs with the [SetServoID Arduino code project](../Arduino/SetServoID/) using the motor control PCB for the robot. Any ID numbers may be chosen, but the default configuration file, and these assembly instructions, will use the joint names and IDs as listed in the table below.
+Before assembling the robot, it is necessary to assign unique motor IDs for each joint motor. You can set these IDs with the [SetServoID Arduino code project](../../Arduino/SetServoID/) using the motor control PCB for the robot. Any ID numbers may be chosen, but the default configuration file, and these assembly instructions, will use the joint names and IDs as listed in the table below.
 
 |     Joint Name       | ID | Assembly Pose (Angle) |
 |----------------------|----| -------------------- |
@@ -43,15 +43,15 @@ Before assembling the robot, it is necessary to assign unique motor IDs for each
 
 During assembly of the robot, it will be necessary to set each motor to a known rotation and then assemble the parts to match that orientation. These positions are *not operational home*, but are instead an easy reference position for use in assembly. The robot assembly pose, along with each joint name, motor ID, and the motor angle corresponding to the current pose, are shown in the image below. 
 
-<img src="res/assembly_orientation.png" width="50%"/>
+<img src="../res/assembly_orientation.png" width="50%"/>
 
 To simplify assembly, the initialization steps for each motor are:
 
 1. Connect to board "Arduino Mega or Mega 2560" on Arduino IDE.
-2. Set the motor ID of the servo with the [SetServoID Arduino code project](../Arduino/SetServoID/). Change the code to the motor ID you want to set.
-3. Set the motor to it's assembly home position using the [SetServoPosition Arduino code project](../Arduino/SetServoPosition/). Change the code so that you are only running **1 motor (the ID you just set) and 1 angle (the home angle you want to set)**.
+2. Set the motor ID of the servo with the [SetServoID Arduino code project](../../Arduino/SetServoID/). Change the code to the motor ID you want to set.
+3. Set the motor to it's assembly home position using the [SetServoPosition Arduino code project](../../Arduino/SetServoPosition/). Change the code so that you are only running **1 motor (the ID you just set) and 1 angle (the home angle you want to set)**.
 4. While the servo is in the home position, attach the servo horn such that the dimple on the horn is facing towards the servo body as shown below.
 
-   <img src="res/Servo_Horn_Orientation.jpg" width="50%"/>
+   <img src="../res/Servo_Horn_Orientation.jpg" width="50%"/>
    
 5. Cut power to the servo and screw down the aligned horn using the black center screw from the servo accessory bag.

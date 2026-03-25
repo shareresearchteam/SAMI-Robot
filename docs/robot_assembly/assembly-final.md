@@ -22,12 +22,12 @@ Requires:
  - [Power switch]() and [fuse]()
  - M3x30 flathead screw x2 (Power switch screws)
  - M3 lock nut x2 (Power switch mounting)
- - [Power switch mounting template](res/chair_templates1.pdf)
+ - [Power switch mounting template](../res/chair_templates1.pdf)
 
 1. Lay out the Power switch mounting template on the back of the plane of the chair below the seat.
 2. Cut out the box in the dashed line, then fit the power switch into the cut out on the chair.
 
-   <img src="res/power_switch_mounted.jpg" width="50%"/>
+   <img src="../res/power_switch_mounted.jpg" width="50%"/>
 
 3. Drill holes through the wood using the screw holes in the switch as your location template.
 4. Screw the two M3x30 flathead screws through the power switch holes and holes your drilled in chair
@@ -41,17 +41,17 @@ Requires:
  - Ikea chair
  - 12VDC Power Supply
  - M4x30 socket head screw x2 (12V to leg of chair)
- - [12V screw hole template](res/chair_templates1.pdf)
+ - [12V screw hole template](../res/chair_templates1.pdf)
 
 1. Lay out the 12V supply mounting template on the back leg of the chair, as shown in the image below.
 
-   <img src="res/12v_supply_template_mount.jpg" width="50%"/>
+   <img src="../res/12v_supply_template_mount.jpg" width="50%"/>
 
 2. Drill through the leg at the two marked holes with a bit sized for M4 screws.
 3. Take a larger size drill bit, larger than the head of the socket head M4 screws and drill through from the outside just deep enough that the top of the M4 socket head would be flush with the chair.
 4. Screw the M4 screws through the holes, and into the matching holes on the side of the 12V power supply, matching the orientation shown in the images below.
 
-   <img src="res/12v_behind.jpg" width="45%"/> <img src="res/12v_front.jpg" width="45%"/>
+   <img src="../res/12v_behind.jpg" width="45%"/> <img src="../res/12v_front.jpg" width="45%"/>
 
 
 ### 5V Supply Mounting
@@ -62,12 +62,12 @@ Requires:
  - 5VDC Power Supply
  - M3x20 screw x2 (Side of chair for 5V)
  - M3x14 screw x2 (Bottom of chair for 5V)
- - [5V screw hole template](res/chair_templates1.pdf)
+ - [5V screw hole template](../res/chair_templates1.pdf)
 
 1. Fold the 5V supply mounting template along the center align.
 2. Attach the template to the inside underside of the chair, as shown below.
 
-   <img src="res/5v_supply_template_mount.jpg" width="50%"/>
+   <img src="../res/5v_supply_template_mount.jpg" width="50%"/>
 
 3. Drill through the marked holes with a bit sized for M3 screws.
 4. On the outside side of the chair and on top of the seat, drill part way in with a larger size drill bit to countersink the socket cap screw heads flush with the chair surface.
@@ -118,7 +118,7 @@ Assembly of the eyes requires:
 2. Screw the second LED array and screw it to the eye panel next to the first, with the DIN labeled data pin aligned closer to the center of the panel.
 3. Attach the short 3-pin JST cable from the center-aligned DOUT connector of the first LED array to the center-aligned DIN connector of the second LED array.
 
-   <img src="res/back_of_eyepanel_wires.jpg" width="50%"/>
+   <img src="../res/back_of_eyepanel_wires.jpg" width="50%"/>
 
 4. Attach the long 3-pin JST cable to the DIN connector of the first LED array.
 
@@ -131,8 +131,8 @@ For the two motors in the hips, the JST cables that come with the motors will ne
 ### Flash Arduino Code
 
 1. Install FastLED from the Arduino Library Manager (version 3.9.12)
-2. Install the [NeoEyes library](../Arduino/NeoEyes/) to your Arduino Library.
-3. Flash the [SAMIMovementControl](../Arduino/SAMIMovementControl/) project to the Arduino MEGA2560 attached to the motor control board.
+2. Install the [NeoEyes library](../../Arduino/NeoEyes/) to your Arduino Library.
+3. Flash the [SAMIMovementControl](../../Arduino/SAMIMovementControl/) project to the Arduino MEGA2560 attached to the motor control board.
 
 ### Test Motor movements
 

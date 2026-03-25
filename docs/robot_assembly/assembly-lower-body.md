@@ -42,8 +42,8 @@ Pre-threading the plastic screw holes with the silver M3 screws before assembly.
 
 Final product:
 
-<img src="res/Feet_Angled.jpeg"  width="50%"/>
-<img src="res/Feet_Top.jpeg"  width="50%"/>
+<img src="../res/Feet_Angled.jpeg"  width="50%"/>
+<img src="../res/Feet_Top.jpeg"  width="50%"/>
 
 ## Lower Legs
 Following the set-up of the feet are the lower legs of the robot. Repeat these steps for both the right and left lower legs.
@@ -69,8 +69,8 @@ As done the same with the feet, pre-thread all the screw holes on the lower legs
 
 Reference figures:
 
-<img src="res/LowerLegs_Side.jpeg"  width="50%"/>
-<img src="res/LowerLegs_Back.jpeg"  width="50%"/>
+<img src="../res/LowerLegs_Side.jpeg"  width="50%"/>
+<img src="../res/LowerLegs_Back.jpeg"  width="50%"/>
 
 <!--Next, attach the Ankle JST cables to the bottom of the Knee motors, and a new JST cable onto the right side of the Left Knee motor. The Right Knee motor will have a new JST cable onto the left side. Finally, orient the Knee motors correctly onto the lower legs which should follow a 90 degree angle (the robot is sitting). Add rubber spacers onto the lower screw notches of the motor, where the upper legs will be attached.The figures below will show the final product, with JST cable, rubber spacer, and Knee motor orientation.--> 
 
@@ -80,7 +80,7 @@ Reference figures:
 
 Final product:
 
-<img src="res/LowerLegs_Angled.jpeg"  width="50%"/>
+<img src="../res/LowerLegs_Angled.jpeg"  width="50%"/>
 
 ## Upper Legs
 Continuing now to the upper legs. The upper legs will require:
@@ -95,13 +95,13 @@ Following the similar process from the other limbs, pre-thread all the screw hol
 
 Final product, Left Leg:
 
-<img src="res/CompleteLeftLeg_Side.jpeg" width="50%"/>
-<img src="res/CompleteLeftLeg_Back.jpeg"  width="50%"/>
+<img src="../res/CompleteLeftLeg_Side.jpeg" width="50%"/>
+<img src="../res/CompleteLeftLeg_Back.jpeg"  width="50%"/>
 
 Final product, Right Leg:
 
-<img src="res/CompleteRightLeg_Side.jpeg"  width="50%"/>
-<img src="res/CompleteRightLeg_Back.jpeg"  width="50%"/>
+<img src="../res/CompleteRightLeg_Side.jpeg"  width="50%"/>
+<img src="../res/CompleteRightLeg_Back.jpeg"  width="50%"/>
 *Note that the cable path is incorrect in this figure, you should use the JST connection on the other side of the motor that will keep the JST cable from being pinched from ankle movement.*
 
 ## Hips
@@ -122,14 +122,14 @@ As usual, pre-thread all the screw holes, **especially**, where the motors are a
 1. Add rubber spacers onto the screw notches of the motor.
 2. Place motor 12 on the right side of the hips. Press it down until the screw holes are aligned. See the figures below:
 
-    <img src="res/Hips_Side.jpeg"  width="50%"/>
-    <img src="res/RightHip_Back.jpeg"  width="50%"/>
+    <img src="../res/Hips_Side.jpeg"  width="50%"/>
+    <img src="../res/RightHip_Back.jpeg"  width="50%"/>
     
 4. Use 2 **M3 x 25 mm** screws to begin securing the motor. Stop screwing the motors to leave space for the square nuts.
 5. Insert 2 **square nuts** into the spaces located on the bottom of the hip. Tilt the piece to align the screws with the square nuts. Then fully screw in the motor.
 6. Place motor 15 on the left side. Press it down until the screw holes are aligned. See the figure below:
    
-    <img src="res/LeftHip_Back.jpeg"  width="50%"/>
+    <img src="../res/LeftHip_Back.jpeg"  width="50%"/>
 
 7. Use 2 **M3 x 25 mm** screws to begin securing the motor. Stop screwing the motors to leave space for the square nuts.
 8. Insert 2 **square nuts** into the spaces located on the bottom of the hip. Tilt the piece to align the screws with the square nuts. Then fully screw in the motor.
@@ -142,11 +142,11 @@ Following this step you can attach the servo horn onto the motor and JST cables 
 
 Final product:
 
-   <img src="res/Hips_Angled.jpeg"  width="50%"/>
-   <img src="res/Hips_Top.jpeg"  width="50%"/>
+   <img src="../res/Hips_Angled.jpeg"  width="50%"/>
+   <img src="../res/Hips_Top.jpeg"  width="50%"/>
 
 After, you can attach the lower limbs to the hip by screwing the Upper Legs into place on the Hips' servo horns (using the silver M3 screws). The final assembly should look like the figures below:
 
-   <img src="res/FullLegAssembly_Front.jpeg"  width="50%"/>
+   <img src="../res/FullLegAssembly_Front.jpeg"  width="50%"/>
 
 *In this figure, the JST cables connected to the Hips are wired incorrectly. You should use the back JST connection to attach your Hip cables. Also, your robot should only have the leg portion in this photo, ignore the additional components.*
